@@ -80,14 +80,92 @@ header, h1{
     max-width: 50%; /* Ensure the image does not exceed its container's width */
     max-height: 50%;
     border: wheat solid 5px;
+    border-radius: 10px;
+    padding: 2px;
     height: 400px;
     width: 350px;
+  }
+
+  .imageOfShaz2 {
+    max-width: 50%; /* Ensure the image does not exceed its container's width */
+    max-height: 50%;
+    border: wheat solid 5px;
+    border-radius: 10px;
+    padding: 2px;
+    height: 400px;
+    width: 350px;
+    margin-right: auto;
 }
+  .images{
+    max-width: 50%; /* Ensure the image does not exceed its container's width */
+    max-height: 50%;
+    border: wheat solid 5px;
+    border-radius: 10px;
+    padding: 2px;
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+  }
   
   .indexP2 {
     margin-top: 20px; /* Add margin at the top to separate from the image */
   }
 
+  .indexP3{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 300px;
+    margin-top: -300px;
+  }
+
+
+  .sectionsForBlog{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin:20px;
+    background-color: bisque;
+    border: black solid 5px;
+    border-radius: 5px;
+    
+  }
+  .sectionsForBlog2{
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin:20px;
+    background-color: bisque;
+    border: black solid 5px;
+    border-radius: 5px;
+
+
+  }
+
+  #blogSection1{
+    display: inherit;
+    
+  
+  }
+
+  #blogSection1 p{
+    padding: 10px;
+  }
+
+  #blogSection2{
+    display: inherit;
+    
+  }
+
+  #blogSection2 p{
+    padding: 10px;
+  }
+
+
+  
   
 
 @keyframes h1BackgroundAnimation{
