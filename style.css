@@ -1,0 +1,122 @@
+body{
+    background-color:cadetblue;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header{
+    animation: h1BackgroundAnimation 15s infinite;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.navigationBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 199, 199);
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    list-style-type:none;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul li{
+    margin: 10px;
+    
+    
+}
+
+li>a:hover{
+    color:#ec0584;;/*awesome mustard hover color*/
+    transition: color .5s;
+
+  }
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+header, h1{
+    font-style: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .indexP {
+    margin-bottom: 20px; /* Add margin at the bottom to separate from the image */
+    background-color: aquamarine;
+  }
+
+  .indexH2{
+    margin-bottom: 20px; /* Add margin at the bottom to separate from the image */
+    background-color: aquamarine;
+
+  }
+  
+  .imageOfShaz {
+    max-width: 50%; /* Ensure the image does not exceed its container's width */
+    max-height: 50%;
+    border: wheat solid 5px;
+    height: 400px;
+    width: 350px;
+}
+  
+  .indexP2 {
+    margin-top: 20px; /* Add margin at the top to separate from the image */
+  }
+
+  
+
+@keyframes h1BackgroundAnimation{
+
+      0% {
+        background-color: #FFA500;
+      }
+      25% {
+        background-color: #1de0d7;
+      }
+      50% {
+        background-color: #800080;
+      }
+      75% {
+        background-color: #FFA500;
+      }
+      100% {
+        background-color: #32CD32;
+      }
+
+
+
+}
+
+
+
+
+
+
+
+
+
